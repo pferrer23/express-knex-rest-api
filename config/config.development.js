@@ -1,4 +1,5 @@
 export default {
+  environment: 'development',
   isTest: false,
   server: {
     port: 3000,

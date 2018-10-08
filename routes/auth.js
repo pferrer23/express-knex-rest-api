@@ -1,6 +1,7 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-const tokenMessage = process.env.TOKEN_SECRET || 'kksisikjweiujedmk';
+import { secret as tokenMessage } from '../config';
+// const tokenMessage = config.secret;
 
 module.exports = (app, database) => {
   function validUser(user) {
