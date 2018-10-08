@@ -29,5 +29,8 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "nodemon": "^1.18.4"
-  }
+  },
+  "description": "Rest Api using express for endpoints, knex for database magement, jsonwebtoken to validate the atuthentication and Postgres as database",
+  "repository": "https://github.com/pferrer23/express-knex-rest-api.git",
+  "author": "Pablo Ferrer <dtecnologia@dreamersoft.com>"
 }
